@@ -1,0 +1,108 @@
+/* Estilos para a página de aplicativo */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+/* Estilos padrão para a imagem do aplicativo */
+.app-image img {
+    width: 100%;
+    height: auto;
+    margin-top: 0px; 
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 768px) {
+    .app-image img {
+        width: 100%;
+        height: auto; 
+        margin-top: 20px; 
+    }
+}
+
+.container-btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 6%;
+}
+
+.right-section button{
+    background-color: #000000fd;
+    border: none;
+    padding: 15px 32px;
+    box-shadow: 8px 10px 10px #00000029;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.right-section button:hover {
+    background-color: #ffb400;
+    color: black;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.app-image{
+    display: flex;
+    justify-content: center;
+    margin: 7% 0 0 0; 
+}
+
+.app-image img{
+    width: 25%;
+    height: 25%;
+}
+
+/* Estilos padrão para o cabeçalho */
+.w3-bar-item.w3-button2 {
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.w3-bar p {
+    color: #004b52; 
+    display: inline-block;
+    margin: 0;
+    padding: 12px 0px;
+    text-align: left;
+
+}
+
+/* Ajustes para telas menores */
+@media (max-width: 768px) {
+    .w3-hide-small {
+        display: none !important;
+    }
+
+    .w3-bar-item.w3-button2,
+    .w3-bar p {
+        display: inline-block;
+        margin: 0;
+        padding: 8px 16px;
+        text-align: left;
+    }
+
+    .w3-bar.w3-wide {
+        display: flex;
+        justify-content: flex-start; 
+        align-items: center;
+    }
+
+    .w3-bar-item.w3-button2 {
+        margin-right: -40px; 
+    }
+
+}
+
+/* Estilos para o cabeçalho */
+.header-color {
+    background-color: #f5f5f5; 
+    color: #fff;
+}

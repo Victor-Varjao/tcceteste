@@ -1,0 +1,26 @@
+@charset="UTF-8";
+body {
+	background-color: rgb(173, 216 ,230);
+	font-family: Arial;
+	font-size: 12pt;
+}
+p {
+	color: #000000;
+	text-align: justify;
+	text-indent: 50px;
+	padding: 10px;
+}
+
+
+/* Formatacao de imagens com legenda */
+
+figure.foto_legenda{
+	border: 8px solid red;
+	width: 600px;
+	box-shadow: 1px 1px 4px black
+}
+
+figure.foto_legenda img{
+	width: 100%;
+	height: 100%
+}
